@@ -1,0 +1,33 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: linear-gradient(210deg, #00283d, #000508);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center
+}
+
+#btnGenerator {
+    border: none;
+    outline: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #0997e4;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+}
